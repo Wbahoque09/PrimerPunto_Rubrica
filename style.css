@@ -1,9 +1,11 @@
+/* Estilos Generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Navbar */
 header {
     background-color: #333;
     color: #fff;
@@ -24,4 +26,51 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+}
+
+/* Main  - Products */
+main {
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.producto img {
+    object-fit: cover;
+    height: 15rem;
+    width: 100%;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.producto p {
+    font-size: 16px;
+}
+
+.producto button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.producto button:hover {
+    background-color: #555;
 }
