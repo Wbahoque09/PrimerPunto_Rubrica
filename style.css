@@ -75,6 +75,34 @@ main {
     background-color: #555;
 }
 
+.carrito {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.carrito h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.carrito ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.carrito ul li {
+    margin-bottom: 5px;
+}
+
+.carrito #total {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
 /* Footer */
 footer {
     background-color: #333;
